@@ -54,72 +54,44 @@ hr {
 
 /* COMPONENTS */
 
-.centered {
-  text-align: center;
-}
-
-.mt {
+.mtb {
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
 
-.pt {
-	padding-bottom: 50px;
-	padding-top: 50px;
-}
+.pt { padding-top: 50px; }
+.pb { padding-bottom: 50px; }
 
-.navbar {
-	margin-bottom: 0px;
-	text-transform: uppercase;
-}
-
-.navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
-}
-
-.navbar-inverse {
-	background-color: #1abc9c;
-	border-color: #16a085;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-	color: white;
-}
-
-.navbar-inverse .navbar-nav > li > a:hover {
-	color: #222222;
-}
-
-.navbar-brand {
-	font-size: 20px;
-	font-weight: 700;
-	letter-spacing: 2px;
-}
-
-.navbar-inverse .navbar-brand {
-	color: white;
-}
-
-.navbar-inverse .navbar-toggle {
-	border-color: transparent;
-}
-
-.masthead {
-	background-color: #f2f2f2;
-	padding-bottom: 70px;
-	padding-top: 70px;
+.biglink {
+  display: inline-block;
+  padding-bottom: 50px;
 }
 
 .quote {
-  display: inline-block;
+  color: #d3d3d3;
+  font-size: 24px;
+  line-height: 1.2;
 }
 
-.quote p {
-  color: #ddd;
-  font-size: 36px;
-  line-height: 1.2;
-  vertical-align: middle;
+#quote2 {
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width : 768px) {
+  .biglink { padding-bottom: 0; }
+  #quote1 { padding-top: 4.5rem; }
+  #quote2 { padding-top: 3rem; }
+}
+
+@media only screen and (min-width : 992px) {
+  .quote  { font-size: 36px; }
+  #quote1 { padding-top: 5rem; }
+  #quote2 { padding-top: 3rem; }
+}
+
+@media only screen and (min-width : 1200px) {
+  #quote1 { padding-top: 7rem; }
+  #quote2 { padding-top: 5rem; }
 }
 
 .footer {
