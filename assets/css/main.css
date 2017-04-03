@@ -134,7 +134,7 @@ hr {
 	padding-top: 10px;
 }
 
-.navbar-nav {
+.navbar .navbar-nav {
   text-transform: uppercase;
 }
 
@@ -144,6 +144,17 @@ hr {
 	font-weight: 700;
 }
 
-.navbar .navbar-toggle {
-	border-color: transparent;
+.navbar-toggle {
+  border-color: #1abc9c;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #1abc9c;
+}
+
+.navbar-toggle:hover {
+  border-color: #7b7b7b;
+}
+.navbar-toggle:hover .icon-bar {
+  background-color: #7b7b7b;
 }
