@@ -67,7 +67,8 @@ hr {
   padding-bottom: 50px;
 }
 
-.biglink:hover img {
+.biglink:hover img,
+.biglink:focus img {
   opacity: 0.8;
 }
 
